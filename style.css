@@ -90,10 +90,11 @@ div.container {
 	font-family: 'Signika', sans-serif;
 	font-size: 18px;
 	font-weight: bold;
+	text-transform: uppercase;
 	color: #cccccc;
 	padding: 0px;
-
 }
+
 .site-nav ul li {
 	background-color: #262626;
 }
