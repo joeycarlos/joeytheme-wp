@@ -16,7 +16,7 @@
 		<!-- site-header -->
 		<header class="site-header">
 		<div class="site-banner">
-			<a href="#" class="picture-about-link"><img class="header-picture" src="/wordpress/wp-content/themes/joeytheme/profile_picture.png" onmouseover="this.src='/wordpress/wp-content/themes/joeytheme/question_mark.png'" onmouseout="this.src='/wordpress/wp-content/themes/joeytheme/profile_picture.png'"></a>
+			<a href="#" class="picture-about-link"><img class="header-picture" src="/wordpress/wp-content/themes/joeytheme/profile_picture.png"></a>
 			<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
 		</div>
 			<nav class="site-nav">
@@ -27,7 +27,5 @@
 				?>
 				<?php wp_nav_menu( $args ); ?>
 			</nav>
-
-			<br><br><br><br><br>
 
 		</header><!-- /site-header -->

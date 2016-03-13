@@ -7,8 +7,8 @@ Version: 1.0
 
 .site-banner {
 	text-align: center;
-	position: relative;
-	height: 200px;
+	margin: 0 auto;
+	width: 470px;
 }
 
 h1 {
@@ -17,10 +17,10 @@ h1 {
 	color: #e6e6e6;
 	margin: auto 0;
 	font-weight: normal;
-	padding: 0 0 0 50px;
+	padding: 60px 0 0 50px;
 	display: inline-block;
+	float: right;
 	vertical-align: middle;
-	height: 200px;
 }
 
 h1 a:link,
@@ -36,6 +36,9 @@ h1 a:hover {
 	width:150px;
 	height:150px;
 	display: inline-block;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 a:link {
@@ -70,16 +73,16 @@ div.container {
 .site-nav {
 	margin: auto;
 	width: 84%;
+	clear: both;
 }
 .site-nav ul {
 	margin: 0;
-	padding: 0;
-
+	padding: 0 0 50px 0;
 }
 
 .site-nav ul:before, .site-nav ul:after { content: ""; display:: table; }
 .site-nav ul:after { clear: both; }
-.site-nav ul { *zoom: 1; }
+.site-nav ul { *zoom: 1; display: inline-block;}
 
 .site-nav ul li {
 	list-style: none;
@@ -99,10 +102,11 @@ div.container {
 /* Site Header Menu */
 .site-header nav {
 	text-align: center;
+	margin: 0 auto;
 }
 
 .site-header nav ul li {
-	margin: 0 40px;
+	margin: 0 20px;
 	border-radius: 10px;
 }
 
