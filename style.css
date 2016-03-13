@@ -7,11 +7,12 @@ Version: 1.0
 
 h1 {
 	font-family: 'Signika', sans-serif;
-	font-size: 50px;
+	font-size: 60px;
 	color: #e6e6e6;
-	margin: 40px 10px;
-	text-align: center;
+	margin: 0;
 	font-weight: normal;
+	padding: 0;
+	display: inline-block;
 }
 
 h1 a:link,
@@ -21,6 +22,10 @@ h1 a:visited {
 
 h1 a:hover {
 	font-weight: bold;
+}
+
+.header-picture {
+	display: inline-block;
 }
 
 a:link {
@@ -45,7 +50,6 @@ p {
 /* General Layout */
 div.container {
 	max-width: 920px;
-	margin: 0 auto; /* Center */
 	padding-left: 20px;
 	padding-right: 20px;
 }
