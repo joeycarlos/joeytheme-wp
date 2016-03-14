@@ -1,8 +1,10 @@
-<?php
+<?php get_header(); ?> 
 
-get_header();
+<p class="blurb-text">
+Curabitur nisi. Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Phasellus viverra nulla ut metus varius laoreet. Phasellus blandit leo ut odio. Ut id nisl quis enim dignissim sagittis.
 
-?> 
+Phasellus consectetuer vestibulum elit. Praesent nec nisl a purus blandit viverra. Nam adipiscing. Phasellus tempus. Suspendisse nisl elit, rhoncus eget, elementum ac, condimentum eget, diam.
+</p>
 
 <table>
 <?php
