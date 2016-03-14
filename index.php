@@ -1,12 +1,5 @@
 <?php get_header(); ?> 
 
-<p class="home-blurb-name">
-Hi! My name is Joey.
-</p>
-<p class="home-blurb-text">
-Aspiring video game engineer, armchair philosopher, and overly emotional musician.
-</p>
-
 <table> <?php
 
 if (is_home()) :
