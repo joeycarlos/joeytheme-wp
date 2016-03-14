@@ -149,7 +149,7 @@ div.container {
 .site-header nav ul li a:link,
 .site-header nav ul li a:visited {
 	display: inline-block;
-	padding: 8px 20px;
+	padding: 4px 20px;
 	color: #cccccc;
 }
 
@@ -174,29 +174,41 @@ div.container {
 
 /* Post Listing */
 
-table, tr, td {
+table {
+	margin: 0 auto;
+	table-layout: fixed;
+}
+
+td {
+	vertical-align: bottom;
+}
+
+tr {
+	height: 35px;
 }
 
 .post-date-cell {
-	padding: 7px 70px 7px 150px;
+	padding-right: 30px;
 }
 
 .post-title-cell {
-
+	padding: 0;
+	padding-right: 10px;
 }
 
 .post-date {
 	font-family: 'Signika', sans-serif;
 	font-size: 20px;
-	padding: 0px;
+	padding: 0;
 	margin: 0;
+
 }
 
 .post-title {
 	margin: 0;
-	padding: 0;
 	color: #cccccc;
 	font-weight: normal;
+	width: 550px;
 }
 
 .post-title a:link,
