@@ -3,7 +3,7 @@
 <p class="article-icon"><i class="fa fa-pencil fa-5x" class></i>
 
 <p class="blurb-text">
-Nunc interdum lacus sit amet orci. Morbi mollis tellus ac sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus.
+Writing has always been such a natural outlet for a guy like myself. I was never a big talker when I was a kid (which hasn't really changed, to be honest), but writing allowed me to consistently communicate and share who I was with others without all the messy and scary social interactions. I write about a pretty large range of things, but you can generally expect to read exactly what you think a curious, lost, anxious, creative, dorky, too-deep-for-his-own-good and sufficiently flawed 20-something-fresh-university-grad would write...
 </p>
 
 <table>

@@ -3,8 +3,7 @@
 <p class="game-icon"><i class="fa fa-gamepad fa-5x" class></i>
 
 <p class="blurb-text">
-Fusce vulputate eleifend sapien. Vestibulum dapibus nunc ac augue. Praesent venenatis metus at tortor pulvinar varius. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nulla facilisi. Fusce vulputate eleifend sapien. Vestibulum dapibus nunc ac augue. Praesent venenatis metus at tortor pulvinar varius. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nulla facilisi.
-</p>
+I've loved playing and tinkering with games ever since I was a little kid. I was OBSESSED with creating my own worlds, spending hundreds of hours just fiddling around on the editors for different games. My journals were filled with stories of historical wars and hand-drawn pictures of hideous creatures that I had battled and then subsequently defeated. Come and join me on my journey as I fulfill my childhood dreams of making the most magical and the most original worlds that my mind can possibly come up with. Who knows... maybe you'll learn a few things as you watch me bumble and stumble around trying to make stuff work. And rest assured, even though I'll be making games, I'll be playing a lot of games too! :P
 
 <table>
 <?php
