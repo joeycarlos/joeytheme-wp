@@ -27,7 +27,7 @@ if ( $query->have_posts() ) :
 				<i class="fa fa-music fa-lg" class="post-page-icon"></i>
 				<?php } ?>
 			<p class="post-page-date">
-				<?php the_date('Y M j'); ?>
+				<?php the_date('Y M j - g:i A'); ?>
 			</p>
 
 			</div>
