@@ -10,7 +10,7 @@ if (is_home()) :
 
 		while (have_posts()) : the_post();
 
-			if ( !in_category('personal') )  { ?>
+			?>
 
 				<tr>
 				<?php $dateString = get_the_date('M j'); ?>
@@ -32,7 +32,7 @@ if (is_home()) :
 					<td class="post-title-cell"><h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2></td>
 				</tr>
 				<?php $prevYear = $currentPostYear; ?>
-			<?php }
+			<?php
 		
 		endwhile;
 
