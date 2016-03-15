@@ -33,6 +33,4 @@
 			<?php echo wp_nav_menu( $args ); ?>
 		</nav>
 
-
-
 		</header><!-- /site-header -->

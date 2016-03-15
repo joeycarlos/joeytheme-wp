@@ -1,5 +1,7 @@
 <?php get_header(); ?> 
 
+<p class="game-icon"><i class="fa fa-gamepad fa-5x" class></i>
+
 <p class="blurb-text">
 Fusce vulputate eleifend sapien. Vestibulum dapibus nunc ac augue. Praesent venenatis metus at tortor pulvinar varius. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nulla facilisi. Fusce vulputate eleifend sapien. Vestibulum dapibus nunc ac augue. Praesent venenatis metus at tortor pulvinar varius. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nulla facilisi.
 </p>

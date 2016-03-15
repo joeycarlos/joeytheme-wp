@@ -20,13 +20,13 @@ if (is_home()) :
 					<td class="post-date-cell"><h3 class="post-date"><?php echo strtoupper($dateString); ?></h3></td>
 					<td class="post-category-cell">
 						<?php if ( in_category('gaming') ) { ?>
-							<i class="fa fa-gamepad fa-2x"></i>
+							<i class="fa fa-gamepad fa-lg" class="main-game-icon"></i>
 							<?php } ?>
 						<?php if ( in_category('articles') ) { ?>
-							<i class="fa fa-pencil fa-2x"></i>
+							<i class="fa fa-pencil fa-lg" class="main-article-icon"></i>
 							<?php } ?>
 						<?php if ( in_category('music') ) { ?>
-							<i class="fa fa-music fa-2x"></i>
+							<i class="fa fa-music fa-lg" class="main-music-icon"></i>
 							<?php } ?>
 					</td>
 					<td class="post-title-cell"><h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2></td>

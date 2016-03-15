@@ -1,5 +1,7 @@
 <?php get_header(); ?> 
 
+<p class="article-icon"><i class="fa fa-pencil fa-5x" class></i>
+
 <p class="blurb-text">
 Nunc interdum lacus sit amet orci. Morbi mollis tellus ac sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus.
 </p>

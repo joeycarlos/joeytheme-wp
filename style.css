@@ -238,14 +238,32 @@ tr {
 	font-weight: bold;
 }
 
-.fa-gamepad { 
-	color: #cccccc;
+.fa-gamepad {
+	color: GoldenRod;
 }
 
-.fa-music { 
-	color: #cccccc;
+.game-icon .fa-gamepad {
+	color: GoldenRod;
+	display: block;
+	text-align: center;
 }
 
-.fa-pencil { 
-	color: #cccccc;
+.fa-pencil {
+	color: DarkTurquoise;
+}
+
+.article-icon .fa-pencil {
+	color: DarkTurquoise;
+	display: block;
+	text-align: center;
+}
+
+.fa-music {
+	color: crimson;
+}
+
+.music-icon .fa-music {
+	color: crimson;
+	display: block;
+	text-align: center;
 }
