@@ -59,7 +59,7 @@ a:visited {
 }
 
 .header-blurb {
-	color: #b3b3b3;
+	color: LightSlateGray;
 	font-size: 20px;
 	text-align: center;
 	display: block;
@@ -68,7 +68,7 @@ a:visited {
 }
 
 .blurb-text {
-	color: #b3b3b3;
+	color: LightSlateGray;
 	margin: 0 0 20px 0;
 	font-size: 18px;
 	padding: 5px 10px;
@@ -77,9 +77,10 @@ a:visited {
 
 body {
 	font-family: 'Kreon', serif;
-	font-size: 16px;
-	color: #333;
+	font-size: 18px;
+	color: LightSlateGray;
 	background-color: #000;
+	padding-bottom: 10px;
 }
 
 p {
@@ -194,6 +195,7 @@ tr {
 	padding: 0;
 	margin: 0;
 	padding-right: 40px;
+	color: SlateGray;
 }
 
 
@@ -215,6 +217,7 @@ tr {
 	font-size: 18px;
 	padding: 0;
 	margin: 0;
+	color: SlateGray;
 
 }
 
@@ -269,18 +272,24 @@ tr {
 }
 
 /* Single Post Page */
+.post-banner {
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
 .post-page-title {
-	display: block;
 	text-align: center;
 	font-family: 'Kreon', serif;
-	font-size: 20px;
+	font-size: 30px;
 	color: #cccccc;
+	padding-bottom: 0;
+	padding-left: 20px;
+	margin-bottom: 5px;
 }
 
 .post-page-title a:link,
 .post-page-title a:visited {
-	margin: 0;
-	padding: 0;
 	color: #cccccc;
 	font-weight: normal;
 }
@@ -289,8 +298,22 @@ tr {
 	font-weight: bold;
 }
 
-.post-page-content {
+p .post-page-content {
 	color: #cccccc;
 	font-size: 20px;
 }
 
+.post-page-icon {
+	display: inline-block;
+}
+
+.post-page-date {
+	display: inline-block;
+	margin: 0;
+	font-family: 'Signika', sans-serif;
+	color: #cccccc;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
