@@ -5,7 +5,10 @@
 $prevYear = 2000;
 if (is_home()) :
 
-	if (have_posts()) :
+	$cat_id = get_cat_ID('personal');
+	query_posts('cat=-' . $cat_id);
+
+	// if (have_posts()) :
 
 		while (have_posts()) : the_post();
 
@@ -26,7 +29,7 @@ if (is_home()) :
 
 		else :
 			echo '<p>No content found</p>';
-	endif;
+	// endif;
 
 endif;
 

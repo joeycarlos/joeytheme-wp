@@ -13,7 +13,7 @@ foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 	<tr>
 		<?php $dateString = get_the_date('M j'); ?>
 		<?php $currentPostYear = get_the_date('Y'); ?>
-		<td class="post-year-cell"><h3 class="post-year"><?php if ($prevYear != $currentPostYear) { echo $currentPostYear; }?></h3></td>		
+		<td class="post-year-cell"><h3 class="post-year"><?php if ($prevYear != $currentPostYear) { echo $currentPostYear; ?><?php }?></h3></td>		
 		<td class="post-date-cell">
 			<h3 class="post-date"><?php echo strtoupper($dateString); ?></h3>
 		</td>
