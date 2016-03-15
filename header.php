@@ -17,7 +17,7 @@
 		<!-- site-header -->
 		<header class="site-header">
 		<div class="site-banner">
-			<a href="#" class="picture-about-link"><img class="header-picture" src="/wordpress/wp-content/themes/joeytheme/images/profile_picture.png"></a>
+			<a href="//localhost/wordpress/about" class="picture-about-link"><img class="header-picture" src="/wordpress/wp-content/themes/joeytheme/images/profile_picture.png"></a>
 			<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
 			<p class="site-description"><?php bloginfo('description'); ?></p>
 		</div>

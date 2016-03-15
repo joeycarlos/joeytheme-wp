@@ -267,3 +267,30 @@ tr {
 	display: block;
 	text-align: center;
 }
+
+/* Single Post Page */
+.post-page-title {
+	display: block;
+	text-align: center;
+	font-family: 'Kreon', serif;
+	font-size: 20px;
+	color: #cccccc;
+}
+
+.post-page-title a:link,
+.post-page-title a:visited {
+	margin: 0;
+	padding: 0;
+	color: #cccccc;
+	font-weight: normal;
+}
+
+.post-page-title a:hover {
+	font-weight: bold;
+}
+
+.post-page-content {
+	color: #cccccc;
+	font-size: 20px;
+}
+
