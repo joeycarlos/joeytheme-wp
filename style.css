@@ -114,7 +114,7 @@ div.container {
 	list-style: none;
 	float: left;
 	font-family: 'Signika', sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #cccccc;
@@ -149,7 +149,7 @@ div.container {
 .site-header nav ul li a:link,
 .site-header nav ul li a:visited {
 	display: inline-block;
-	padding: 4px 20px;
+	padding: 8px 20px;
 	color: #cccccc;
 }
 
@@ -180,25 +180,28 @@ table {
 }
 
 td {
-	vertical-align: bottom;
+	vertical-align: middle;
 }
 
 tr {
-	height: 35px;
+	height: 50px;
 }
 
 
 .post-year {
 	font-family: 'Signika', sans-serif;
-	font-size: 20px;
-	vertical-align: bottom;
+	font-size: 28px;
 	padding: 0;
 	margin: 0;
-	padding-right: 20px;
+	padding-right: 40px;
 }
 
 
 .post-date-cell {
+	padding-right: 30px;
+}
+
+.post-category-cell {
 	padding-right: 30px;
 }
 
@@ -209,7 +212,7 @@ tr {
 
 .post-date {
 	font-family: 'Signika', sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	padding: 0;
 	margin: 0;
 
@@ -219,11 +222,12 @@ tr {
 	margin: 0;
 	color: #cccccc;
 	font-weight: normal;
+	font-size: 20px;
 	width: 550px;
 }
 
 .post-title a:link,
-.post-title a:visited{
+.post-title a:visited {
 	margin: 0;
 	padding: 0;
 	color: #cccccc;
@@ -232,4 +236,16 @@ tr {
 
 .post-title a:hover {
 	font-weight: bold;
+}
+
+.fa-gamepad { 
+	color: #cccccc;
+}
+
+.fa-music { 
+	color: #cccccc;
+}
+
+.fa-pencil { 
+	color: #cccccc;
 }

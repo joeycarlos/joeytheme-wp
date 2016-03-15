@@ -1,19 +1,19 @@
 <?php get_header(); ?> 
 
 <p class="blurb-text">
-Vestibulum ullamcorper mauris at ligula. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Phasellus dolor. Etiam sit amet orci eget eros faucibus tincidunt. Praesent nec nisl a purus blandit viverra. Vestibulum ullamcorper mauris at ligula. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Phasellus dolor. 
+Fusce vulputate eleifend sapien. Vestibulum dapibus nunc ac augue. Praesent venenatis metus at tortor pulvinar varius. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nulla facilisi. Fusce vulputate eleifend sapien. Vestibulum dapibus nunc ac augue. Praesent venenatis metus at tortor pulvinar varius. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nulla facilisi.
 </p>
 
 <table>
 <?php
 $prevYear = 2000;
-$args = array( 'category_name' => 'media' );
+$args = array( 'category_name' => 'gaming' );
 $myposts = get_posts( $args );
 foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 	<tr>
 		<?php $dateString = get_the_date('M j'); ?>
 		<?php $currentPostYear = get_the_date('Y'); ?>
-		<td class="post-year-cell"><h3 class="post-year"><?php if ($prevYear != $currentPostYear) { echo $currentPostYear; }?></h3></td>	
+		<td class="post-year-cell"><h3 class="post-year"><?php if ($prevYear != $currentPostYear) { echo $currentPostYear; }?></h3></td>			
 		<td class="post-date-cell">
 			<h3 class="post-date"><?php echo strtoupper($dateString); ?></h3>
 		</td>
