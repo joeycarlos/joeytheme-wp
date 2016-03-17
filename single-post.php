@@ -18,7 +18,7 @@ if ( $query->have_posts() ) :
 				<?php the_title(); ?>
 			</a></h2>
 			<?php if ( in_category('technology') ) { ?>
-				<i class="fa fa-gamepad fa-lg" class="post-page-icon"></i>
+				<i class="fa fa-cogs fa-lg" class="post-page-icon"></i>
 				<?php } ?>
 			<?php if ( in_category('essays') ) { ?>
 				<i class="fa fa-pencil fa-lg" class="post-page-icon"></i>

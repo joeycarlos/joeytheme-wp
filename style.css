@@ -241,11 +241,11 @@ tr {
 	font-weight: bold;
 }
 
-.fa-gamepad {
+.fa-cogs {
 	color: GoldenRod;
 }
 
-.game-icon .fa-gamepad {
+.game-icon .fa-cogs {
 	color: GoldenRod;
 	display: block;
 	text-align: center;

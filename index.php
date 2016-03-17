@@ -22,7 +22,7 @@ if (is_home()) :
 					<td class="post-date-cell"><h3 class="post-date"><?php if ($prevDay != $currentPostDay ) { echo strtoupper($dateString); } ?></h3></td>
 					<td class="post-category-cell">
 						<?php if ( in_category('technology') ) { ?>
-							<i class="fa fa-gamepad fa-lg" class="main-game-icon"></i>
+							<i class="fa fa-cogs fa-lg" class="main-game-icon"></i>
 							<?php } ?>
 						<?php if ( in_category('essays') ) { ?>
 							<i class="fa fa-pencil fa-lg" class="main-article-icon"></i>
