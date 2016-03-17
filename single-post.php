@@ -17,13 +17,13 @@ if ( $query->have_posts() ) :
 				title="<?php the_title_attribute()?>" >
 				<?php the_title(); ?>
 			</a></h2>
-			<?php if ( in_category('gaming') ) { ?>
+			<?php if ( in_category('technology') ) { ?>
 				<i class="fa fa-gamepad fa-lg" class="post-page-icon"></i>
 				<?php } ?>
-			<?php if ( in_category('articles') ) { ?>
+			<?php if ( in_category('essays') ) { ?>
 				<i class="fa fa-pencil fa-lg" class="post-page-icon"></i>
 				<?php } ?>
-			<?php if ( in_category('music') ) { ?>
+			<?php if ( in_category('art') ) { ?>
 				<i class="fa fa-music fa-lg" class="post-page-icon"></i>
 				<?php } ?>
 			<p class="post-page-date">
