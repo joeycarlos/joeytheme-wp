@@ -317,3 +317,9 @@ p .post-page-content {
 	text-transform: uppercase;
 	padding-left: 10px;
 }
+
+.category-description {
+	text-align: center;
+	display:table-cell;
+	font-size: 20px;
+}

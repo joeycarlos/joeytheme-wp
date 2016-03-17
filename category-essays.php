@@ -2,9 +2,10 @@
 
 <p class="article-icon"><i class="fa fa-pencil fa-5x" class></i>
 
-<p class="blurb-text">
-Writing has always been such a natural outlet for a guy like myself. I was never a big talker when I was a kid (which hasn't really changed, to be honest), but writing allowed me to consistently communicate and share who I was with others without all the messy and scary social interactions. I write about a pretty large range of things, but you can generally expect to read exactly what you think a curious, lost, anxious, creative, dorky, too-deep-for-his-own-good and sufficiently flawed 20-something-fresh-university-grad would write...
-</p>
+<!-- Category Description Output -->
+<div class="category-description">
+  <?php echo category_description(); ?>
+</div>
 
 <table>
 <?php
