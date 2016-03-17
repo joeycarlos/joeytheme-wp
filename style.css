@@ -60,6 +60,7 @@ a:visited {
 
 .header-blurb {
 	color: LightSlateGray;
+	font-family: 'Signika', sans-serif;
 	font-size: 20px;
 	text-align: center;
 	display: block;
