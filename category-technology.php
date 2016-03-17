@@ -1,6 +1,6 @@
 <?php get_header(); ?> 
 
-<p class="game-icon"><i class="fa fa-gamepad fa-5x" class></i></p>
+<p class="game-icon"><i class="fa fa-cogs fa-5x" class></i></p>
 
 <!-- Category Description Output -->
 <div class="category-description">
