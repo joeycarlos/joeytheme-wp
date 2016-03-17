@@ -9,7 +9,7 @@ Ah, music... my old friend! It's always been there for me in my darkest hours - 
 <table>
 <?php
 $prevYear = 2000;
-$args = array( 'category_name' => 'music' );
+$args = array( 'category_name' => 'art' );
 $myposts = get_posts( $args );
 foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 	<tr>

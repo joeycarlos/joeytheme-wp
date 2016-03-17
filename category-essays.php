@@ -9,7 +9,7 @@ Writing has always been such a natural outlet for a guy like myself. I was never
 <table>
 <?php
 $prevYear = 2000;
-$args = array( 'category_name' => 'articles' );
+$args = array( 'category_name' => 'essays' );
 $myposts = get_posts( $args );
 foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 	<tr>

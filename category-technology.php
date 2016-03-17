@@ -9,7 +9,7 @@ I've loved playing and tinkering with games ever since I was a little kid. I was
 <table>
 <?php
 $prevYear = 2000;
-$args = array( 'category_name' => 'gaming' );
+$args = array( 'category_name' => 'technology' );
 $myposts = get_posts( $args );
 foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 	<tr>
