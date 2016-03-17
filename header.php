@@ -19,10 +19,10 @@
 		<div class="site-banner">
 			<a href="//localhost/wordpress/about" class="picture-about-link"><img class="header-picture" src="/wordpress/wp-content/themes/joeytheme-wp/images/profile_picture.png"></a>
 			<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-			<p class="site-description"><?php bloginfo('description'); ?></p>
+			<p class="full-name">Jose-Carlos (Joey) Peralta Laguio</p>
 		</div>
 
-		<p class="header-blurb">Aspiring video game engineer, armchair philosopher, and overly emotional musician.</p>
+		<p class="header-blurb"><?php bloginfo('description'); ?></p>
 
 		<nav class="site-nav">
 			<?php
