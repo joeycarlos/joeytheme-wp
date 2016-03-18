@@ -202,19 +202,27 @@ div.container {
 	padding-right: 10px;
 }
 
+.next-posts-link {
+	color: #e6e6e6;
+	font-size: 20px;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.prev-posts-link a:link{
+	color: #e6e6e6;
+}
+
+.next-posts-link a:link{
+	color: #e6e6e6;
+}
+
 .prev-posts-link a:hover {
 	font-weight: bold;
 }
 
 .next-posts-link a:hover {
 	font-weight: bold;
-}
-
-.next-posts-link {
-	color: #e6e6e6;
-	font-size: 20px;
-	display: inline-block;
-	padding-left: 10px;
 }
 
 .prev-posts-link a:visited {
