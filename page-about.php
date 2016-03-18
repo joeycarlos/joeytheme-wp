@@ -115,6 +115,11 @@ echo $content;
 		<td class="about-field-title"> Computer Specs: </td>
 		<td class="about-field"> 16GB RAM Intel i7 Processor, GTX 970 2GB Graphics, 512GB SSD, 2TB DDR, ASUS 27" Monitor, HP 24" Monitor, Bose 2.1 Speaker System, Alienware PC, Razer BlackWidow Ultimate Keyboard, Razer Chroma Mouse </td>
 	</tr>
+	<tr class="about-row">
+		<td class="about-field-title"> Email: </td>
+		<td class="about-field"> jclaguio@gmail.com </td>
+	</tr>
+
 
 </table>
 <?php get_footer(); ?>
