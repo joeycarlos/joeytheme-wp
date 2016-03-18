@@ -20,3 +20,12 @@ wp_enqueue_style( 'wpb-fa', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/
 }
 
 add_action( 'wp_enqueue_scripts', 'wpb_load_fa' );
+
+function get_cats_by_slug($catslugs) {
+    $catids = array();
+    foreach($catslugs as $slug) {
+        $catids[] = get_category_by_slug($slug)->term_id; 
+        //store the id of each slug in $catids
+    }
+    return $catids;
+}
