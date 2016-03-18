@@ -1,6 +1,6 @@
 <?php get_header(); ?> 
 
-<table> <?php
+<?php
 
 $prevYear = 2000;
 $prevDay = 2000;
@@ -21,6 +21,7 @@ if (is_home()) :
 
 	if ( $query->have_posts() ) : ?>
 
+	<table> 
 	<?php
 	while( $query->have_posts() ) : $query->the_post(); ?>
 		<tr>
