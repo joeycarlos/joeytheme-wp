@@ -382,7 +382,8 @@ p .post-page-content {
 
 .category-description {
 	text-align: center;
-	display: table-cell;
+	display: block;
+	margin: 0 auto;
 	font-size: 20px;
 }
 
