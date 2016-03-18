@@ -23,7 +23,7 @@ echo $content;
 	<tr class="about-row">
 		<td class="about-field-title"> Previous Employment: </td>
 		<td class="about-field">
-			<br> QA Engineer, Mobify, 2015
+			QA Engineer, Mobify, 2015
 			<br> QA Analyst, Appnovation Technologies, 2013
 			<br> QA Engineer, Broadcom Corporation, 2012
 		</td>
@@ -31,7 +31,7 @@ echo $content;
 	<tr class="about-row">
 		<td class="about-field-title"> Musical Experience: </td>
 		<td class="about-field">
-			<br> Corpus Christi College Chamber Choir, 2010-Present
+			Corpus Christi College Chamber Choir, 2010-Present
 			<br> 8Wings Vocal Ensemble, 2014-Present
 			<br> UBC Laptop Orchestra, 2014-2015
 			<br> Right Here, Write Now! The Musical, 2014
@@ -57,7 +57,8 @@ echo $content;
 	</tr>
 	<tr class="about-row">
 		<td class="about-field-title"> Awards and Accomplishments: </td>
-		<td class="about-field"> UBC Engineering Dean's List, 2010-2015
+		<td class="about-field"> 
+			UBC Engineering Dean's List, 2010-2015
 			<br>High School Valedictorian
 			<br>Top Student in Math, Physics, Chemistry, and Choral Music
 			<br>Dogwood Scholarship for Voice Performance
@@ -86,7 +87,7 @@ echo $content;
 	<tr class="about-row">
 		<td class="about-field-title"> Lifetime Goals: </td>
 		<td class="about-field">
-			<br>Acquire a PhD in Philosophy from the University of California
+			Acquire a PhD in Philosophy from the University of California
 			<br>Work full time as a game software engineer
 			<br>Play piano at an RCM Grade 10 level
 			<br>Live in San Francisco (at least temporarily)
@@ -95,7 +96,7 @@ echo $content;
 	<tr class="about-row">
 		<td class="about-field-title"> Interests and Hobbies: </td>
 		<td class="about-field">
-			<br>Developing and playing video games via DirectX/Unreal
+			Developing and playing video games via DirectX/Unreal
 			<br>Reading philosophical and historical texts
 			<br>Music - especially singing, piano, and guitar
 			<br>Developing blogs using Wordpress
