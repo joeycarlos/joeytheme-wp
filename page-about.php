@@ -1,7 +1,7 @@
 <?php get_header(); ?> 
 
 <h2 class="about-page-title"> About </h2>
-<img class="about-picture" src="/wordpress/wp-content/themes/joeytheme-wp/images/family-picture.jpg">
+<img class="about-picture" src="<?php bloginfo('url'); ?>/wp-content/themes/joeytheme-wp/images/family-picture.jpg">
 
 <table class="about-table">
 	<tr class="about-row">

@@ -17,11 +17,11 @@
 		<!-- site-header -->
 		<header class="site-header">
 		<div class="site-banner">
-			<a href="//localhost/wordpress/about" class="picture-about-link">
+			<a href="<?php bloginfo('url'); ?>/about" class="picture-about-link">
 				<img class="header-picture" 
-					src="/wordpress/wp-content/themes/joeytheme-wp/images/profile_picture.png" 
-					onmouseover="this.src='/wordpress/wp-content/themes/joeytheme-wp/images/profile_picture_hover.png'" 
-					onmouseout="this.src='/wordpress/wp-content/themes/joeytheme-wp/images/profile_picture.png'">
+					src="<?php bloginfo('url'); ?>/wp-content/themes/joeytheme-wp/images/profile_picture.png" 
+					onmouseover="this.src='<?php bloginfo('url'); ?>/wp-content/themes/joeytheme-wp/images/profile_picture_hover.png'" 
+					onmouseout="this.src='<?php bloginfo('url'); ?>/wp-content/themes/joeytheme-wp/images/profile_picture.png'">
 			</a>
 			<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
 			<p class="full-name">Jose-Carlos (Joey) Peralta Laguio</p>
