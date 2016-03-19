@@ -1,14 +1,6 @@
 <?php get_header(); ?> 
 
-<?php 
-/*
-$page = get_page_by_title('about');
-$content = apply_filters('the_content', $page->post_content); 
-echo $content;  
-*/
-?>
-
-<h3 class="about-page-title"> About </h3>
+<h2 class="about-page-title"> About </h2>
 <img class="about-picture" src="/wordpress/wp-content/themes/joeytheme-wp/images/family-picture.jpg">
 
 <table class="about-table">
@@ -119,7 +111,6 @@ echo $content;
 		<td class="about-field-title"> Email: </td>
 		<td class="about-field"> jclaguio@gmail.com </td>
 	</tr>
-
-
 </table>
+
 <?php get_footer(); ?>
