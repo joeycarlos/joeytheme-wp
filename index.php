@@ -44,7 +44,7 @@ if (is_home()) :
 				<td class="post-category-cell">
 					<?php 
 					if ( in_category('technology') ) { ?>
-						<i class="fa fa-cogs fa-lg" class="main-game-icon"></i>
+						<i class="fa fa-cogs fa-lg" class="main-tech-icon"></i>
 					<?php } ?>
 
 					<?php 
@@ -61,7 +61,8 @@ if (is_home()) :
 				<td class="post-title-cell"><h4 class="post-title"><a href="<?php the_permalink(); ?>">
 					<?php 
 					the_title(); ?>
-					</a></h2></td>
+					</a></h4>
+				</td>
 			</tr>
 
 			<?php 
