@@ -106,7 +106,7 @@ if ( $query->have_posts() ) : ?>
 	wp_reset_postdata();
 
 else :
-	echo '<p>No content found</p>';
+	echo '<p>Posts for this category coming soon!</p>';
 
 endif;
 ?>
