@@ -81,7 +81,7 @@ nav {
 	font-size: 20px;
 	text-transform: uppercase;
 	text-align: center;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 
 nav ul {
@@ -233,16 +233,71 @@ nav ul li a:hover{
 	font-weight: bold;
 }
 
+
 /* FOOTER */
 .site-footer {
 	text-align: center;
 	font-family: 'Signika', sans-serif;
+	padding-top: 20px;
 }
 
-/* CATEGORY PAGE */
 
+/* CATEGORY PAGE */
 .category-icon {
 	text-align: center;
+}
+
+
+/* SINGLE POST PAGE */
+.post-banner {
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.post-page-title {
+	text-align: center;
+	font-family: 'Kreon', serif;
+	font-size: 30px;
+	color: #cccccc;
+	padding-bottom: 0;
+	margin-bottom: 5px;
+}
+
+.post-page-title a:link,
+.post-page-title a:visited {
+	color: #cccccc;
+	font-weight: normal;
+}
+
+.post-page-title a:hover {
+	font-weight: bold;
+}
+
+.post-page-content {
+	padding-top: 10px;
+	color: #b3b3b3;
+	font-size: 16px;
+	line-height: 25px;
+	max-width: 800px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.post-page-icon {
+	display: inline-block;
+}
+
+.post-page-date {
+	display: inline-block;
+	margin: 0;
+	font-family: 'Signika', sans-serif;
+	color: SlateGray;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-left: 10px;
 }
 
 

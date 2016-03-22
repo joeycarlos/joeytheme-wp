@@ -30,10 +30,11 @@ if ( $query->have_posts() ) :
 				<p class="post-page-date">
 					<?php the_date('Y M j - g:i A'); ?>
 				</p>
-
 			</div>
 
-			<?php the_content(); ?> 
+			<div class="post-page-content">
+				<?php the_content(); ?> 
+			</div>
 		</div> 
 
 	<?php 
