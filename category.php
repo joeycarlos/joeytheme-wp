@@ -1,15 +1,17 @@
 <?php get_header(); ?> 
 
-<?php if (is_category('technology')) { ?>
-	<p class="tech-icon"><i class="fa fa-cogs fa-5x" class></i></p>
+<div class="category-icon">
+	<?php if (is_category('technology')) { ?>
+		<p class="tech-icon"><i class="fa fa-cogs fa-5x" class></i></p>
 
-<?php } elseif (is_category('essays')) { ?>
-	<p class="article-icon"><i class="fa fa-pencil fa-5x" class></i></p>
+	<?php } elseif (is_category('essays')) { ?>
+		<p class="article-icon"><i class="fa fa-pencil fa-5x" class></i></p>
 
-<?php } elseif (is_category('art')) { ?>
-	<p class="music-icon"><i class="fa fa-music fa-5x" class></i></p>
+	<?php } elseif (is_category('art')) { ?>
+		<p class="music-icon"><i class="fa fa-music fa-5x" class></i></p>
 
-<?php } ?>
+	<?php } ?>
+</div>
 
 <!-- Category Description Output -->
 <div class="category-description">
@@ -42,7 +44,7 @@ $query = new WP_Query( $args );
 
 if ( $query->have_posts() ) : ?>
 
-	<table>
+	<table class="category-post-listing">
 
 	<?php
 
@@ -51,20 +53,26 @@ if ( $query->have_posts() ) : ?>
 
 	while( $query->have_posts() ) : $query->the_post(); ?>
 
+		<?php $dateString = get_the_date('M j'); ?>
+		<?php $currentPostYear = get_the_date('Y'); ?>
+		<?php $currentPostDay = get_the_date('M j Y'); ?>
+
+		<?php
+		if ($prevYear != $currentPostYear) { ?>
+			<tr>
+				<td class="post-year-cell"><p class="post-year">
+					<?php echo $currentPostYear; ?>
+				</p></td>
+			</tr>
+		<?php } ?>
+
 		<tr>
-			<?php $dateString = get_the_date('M j'); ?>
-			<?php $currentPostYear = get_the_date('Y'); ?>
-			<?php $currentPostDay = get_the_date('M j Y'); ?>
-
-			<td class="post-year-cell"><h3 class="post-year"><?php if ($prevYear != $currentPostYear) { echo $currentPostYear; ?><?php }?></h3>
-			</td>
-
 			<td class="post-date-cell">
-				<h3 class="post-date"><?php if ($prevDay != $currentPostDay ) { echo strtoupper($dateString); } ?></h3>
+				<p class="post-date"><?php if ($prevDay != $currentPostDay ) { echo strtoupper($dateString); } ?></p>
 			</td>
 
 			<td class="post-title-cell">
-				<h4 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+				<p class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
 			</td>
 		</tr>
 

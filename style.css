@@ -81,6 +81,7 @@ nav {
 	font-size: 20px;
 	text-transform: uppercase;
 	text-align: center;
+	padding-bottom: 30px;
 }
 
 nav ul {
@@ -107,17 +108,19 @@ nav ul li a:hover{
 	border-radius: 5px;
 }
 
+
 /* POST LISTING */
-.index-post-listing {
+.index-post-listing,
+.category-post-listing {
 	margin: 0 auto;
-	padding-top: 20px;
 	table-layout: fixed;
 }
 
 .post-year-cell {
 	text-align: left;
-	height: 50px;
+	height: 30px;
 	vertical-align: bottom;
+	padding-top: 10px;
 	padding-bottom: 20px;
 }
 
@@ -127,7 +130,7 @@ nav ul li a:hover{
 
 	font-family: 'Signika', sans-serif;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 30px;
 
 	text-decoration: underline;
 }
@@ -137,6 +140,7 @@ nav ul li a:hover{
 	padding: 0;
 	width: 100px;
 	vertical-align: top;
+	padding-top: 1px;
 }
 
 .post-date {
@@ -183,6 +187,7 @@ nav ul li a:hover{
 .post-title a:hover {
 	font-weight: bold;
 }
+
 
 /* PAGINATION */
 .prev-next-posts {
@@ -234,6 +239,13 @@ nav ul li a:hover{
 	font-family: 'Signika', sans-serif;
 }
 
+/* CATEGORY PAGE */
+
+.category-icon {
+	text-align: center;
+}
+
+
 /* BANNER BREAKPOINT */
 @media screen and (max-width: 450px) {
 
@@ -261,17 +273,25 @@ nav ul li a:hover{
 		max-width: 450px;
 	}
 
+	.post-year {
+		font-size: 25px;
+	}
+
 	.post-date {
 		font-size: 14px;
 	}
 
 	.post-title {
 		font-size: 16px;
+		padding-bottom: 15px;
 	}
 }
 
 /* NAVIGATION BREAKPOINT */
 @media screen and (max-width: 580px) {
+	nav {
+		padding-bottom: 0px;
+	}
 
 	nav ul li {
 		font-size: 20px;
