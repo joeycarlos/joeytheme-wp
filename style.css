@@ -16,6 +16,17 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
+.fa-cogs {
+	color: GoldenRod;
+}
+
+.fa-pencil {
+	color: DarkTurquoise;
+}
+
+.fa-music {
+	color: crimson;
+}
 
 /* HEADER */
 .site-banner {
@@ -82,11 +93,19 @@ nav ul li {
 	width: 180px;
 }
 
-nav ul li a:hover{
+nav ul li a:link,
+nav ul li a:visited {
 	background-color: #333333;
-	border-radius: 50px;
 	padding: 8px 10px;
+	border-radius: 5px;
 }
+
+nav ul li a:hover{
+	background-color: #404040;
+	padding: 8px 10px;
+	border-radius: 5px;
+}
+
 
 /* BANNER BREAKPOINT */
 @media screen and (max-width: 450px) {
@@ -115,13 +134,33 @@ nav ul li a:hover{
 /* NAVIGATION BREAKPOINT */
 @media screen and (max-width: 580px) {
 
+	nav ul {
+	}
+
 	nav ul li {
 		font-size: 20px;
 		display: block;
 		text-align: center;
 		width: 100%;
 		margin-bottom: 20px;
+		float: none;
+		background-color: #333333;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin: 0;
+		border-bottom: 1px solid #576979;
 	}
+
+	nav ul li a:link,
+	nav ul li a:visited {
+		background-color: transparent;
+
+	}
+
+	nav ul li:last-child {
+		border-bottom: none;
+	}
+
 
 }
 /*
