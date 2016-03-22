@@ -18,7 +18,7 @@ if (is_home()) :
 		$prevDay = 2000;
 		?>
 
-		<table> 
+		<table class="index-post-listing"> 
 		<?php
 		while( $query->have_posts() ) : $query->the_post(); ?>
 
@@ -28,18 +28,23 @@ if (is_home()) :
 			$currentPostDay = get_the_date('M j Y'); 
 			?>
 
-			<tr>
-				<td class="post-year-cell"><h3 class="post-year">
-					<?php 
-					if ($prevYear != $currentPostYear) { 
-						echo $currentPostYear; }?>
-				</h3></td>
+			<?php
+			if ($prevYear != $currentPostYear) { ?>
+				<tr>
+					<td class="post-year-cell"><p class="post-year">
+						<?php echo $currentPostYear; ?>
+					</p></td>
+				</tr>
+			<?php } ?>
 
-				<td class="post-date-cell"><h3 class="post-date">
+
+			<tr>
+
+				<td class="post-date-cell"><p class="post-date">
 					<?php 
 					if ($prevDay != $currentPostDay ) { 
 						echo strtoupper($dateString); } ?>
-				</h3></td>
+				</p></td>
 
 				<td class="post-category-cell">
 					<?php 
