@@ -19,7 +19,7 @@ if ( $query->have_posts() ) :
 					<i class="fa fa-cogs fa-lg" class="post-page-icon"></i>
 					<?php } ?>
 
-				<?php if ( in_category('essays') ) { ?>
+				<?php if ( in_category('writing') ) { ?>
 					<i class="fa fa-pencil fa-lg" class="post-page-icon"></i>
 					<?php } ?>
 
@@ -31,7 +31,7 @@ if ( $query->have_posts() ) :
 					<?php the_date('Y M j - g:i A'); ?>
 				</p>
 
-				<p class="post-page-tags"><?php echo get_the_tag_list('Tags : ', ', ', ''); ?></p>
+				<p class="post-page-tags"><?php echo get_the_tag_list('Tags: ', ', ', ''); ?></p>
 			</div>
 
 			<div class="post-page-content">

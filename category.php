@@ -4,7 +4,7 @@
 	<?php if (is_category('technology')) { ?>
 		<p class="tech-icon"><i class="fa fa-cogs fa-5x" class></i></p>
 
-	<?php } elseif (is_category('essays')) { ?>
+	<?php } elseif (is_category('writing')) { ?>
 		<p class="article-icon"><i class="fa fa-pencil fa-5x" class></i></p>
 
 	<?php } elseif (is_category('art')) { ?>
@@ -22,15 +22,15 @@
 
 if (is_category('technology')) {
 	$catslugs = array('technology');
-} elseif (is_category('essays')) {
-	$catslugs = array('essays');
+} elseif (is_category('writing')) {
+	$catslugs = array('writing');
 } elseif (is_category('art')) {
 	$catslugs = array('art');
 } elseif (is_category('personal')) {
 	$catslugs = array('personal');
 } else {
 	echo "Not a valid category. Returning all posts";
-	$catslugs = array('technology','essays','art');
+	$catslugs = array('technology','writing','art');
 }
 
 $catids = get_cats_by_slug($catslugs);
@@ -78,7 +78,7 @@ if ( $query->have_posts() ) : ?>
 				<?php } ?>
 
 				<?php 
-				if ( in_category('essays') ) { ?>
+				if ( in_category('writing') ) { ?>
 					<i class="fa fa-pencil fa-lg" class="main-article-icon"></i>
 				<?php } ?>
 

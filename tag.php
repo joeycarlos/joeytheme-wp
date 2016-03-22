@@ -43,6 +43,23 @@ if ( $query->have_posts() ) : ?>
 				<p class="post-date"><?php if ($prevDay != $currentPostDay ) { echo strtoupper($dateString); } ?></p>
 			</td>
 
+			<td class="post-category-cell">
+				<?php 
+				if ( in_category('technology') ) { ?>
+					<i class="fa fa-cogs fa-lg" class="main-tech-icon"></i>
+				<?php } ?>
+
+				<?php 
+				if ( in_category('writing') ) { ?>
+					<i class="fa fa-pencil fa-lg" class="main-article-icon"></i>
+				<?php } ?>
+
+				<?php 
+				if ( in_category('art') ) { ?>
+					<i class="fa fa-music fa-lg" class="main-music-icon"></i>
+				<?php } ?>
+			</td>
+
 			<td class="post-title-cell">
 				<p class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
 				<p class="post-tags"><?php echo get_the_tag_list('', ', ', ''); ?></p>

@@ -2,7 +2,7 @@
 
 <?php
 
-$catslugs = array('technology','essays','art');
+$catslugs = array('technology','writing','art');
 $catids = get_cats_by_slug($catslugs);
 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 $args = array( 'category__in' => $catids,
@@ -53,7 +53,7 @@ if (is_home()) :
 					<?php } ?>
 
 					<?php 
-					if ( in_category('essays') ) { ?>
+					if ( in_category('writing') ) { ?>
 						<i class="fa fa-pencil fa-lg" class="main-article-icon"></i>
 					<?php } ?>
 
