@@ -111,7 +111,8 @@ nav ul li a:hover{
 
 /* POST LISTING */
 .index-post-listing,
-.category-post-listing {
+.category-post-listing,
+.tag-post-listing {
 	margin: 0 auto;
 	table-layout: fixed;
 }
@@ -321,7 +322,6 @@ nav ul li a:hover{
 }
 
 /* ABOUT PAGE */
-
 .about-page-title {
 	text-align: center;
 	font-family: 'Kreon', serif;
@@ -375,6 +375,14 @@ nav ul li a:hover{
 
 .about-table tr:last-child > td {
 	border-bottom: none;
+}
+
+/* TAG PAGE */
+.tag-page-title {
+	text-align: center;
+	font-family: 'Kreon', serif;
+	font-size: 20px;
+	color: #cccccc;	
 }
 
 /* BANNER BREAKPOINT */
