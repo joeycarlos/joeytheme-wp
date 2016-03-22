@@ -181,6 +181,55 @@ nav ul li a:hover{
 	font-weight: bold;
 }
 
+/* PAGINATION */
+.prev-next-posts {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.prev-posts-link {
+	display: inline-block;
+	font-family: 'Signika', sans-serif;
+}
+
+.prev-posts-link a:link,
+.prev-posts-link a:visited {
+	font-weight: normal;
+}
+
+.prev-posts-link a:hover{
+	font-weight: bold;
+}
+
+.current-page-number {
+	display: inline-block;
+	width: 30px;
+	font-family: 'Signika', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+.next-posts-link {
+	display: inline-block;
+	font-weight: bold;
+	font-family: 'Signika', sans-serif;
+}
+
+.next-posts-link a:link,
+.next-posts-link a:visited {
+	font-weight: normal;
+}
+
+.next-posts-link a:hover {
+	font-weight: bold;
+}
+
+/* FOOTER */
+.site-footer {
+	text-align: center;
+	font-family: 'Signika', sans-serif;
+}
 
 /* BANNER BREAKPOINT */
 @media screen and (max-width: 450px) {
