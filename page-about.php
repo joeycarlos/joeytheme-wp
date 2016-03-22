@@ -13,7 +13,7 @@
 		<td class="about-field"> Music Teacher at CW Music </td>
 	</tr>
 	<tr class="about-row">
-		<td class="about-field-title"> Previous Employment: </td>
+		<td class="about-field-title"> Employment History: </td>
 		<td class="about-field">
 			QA Engineer, Mobify, 2015
 			<br> QA Analyst, Appnovation Technologies, 2013
@@ -32,23 +32,23 @@
 		</td>
 	</tr>
 	<tr class="about-row">
-		<td class="about-field-title"> Post Secondary Education: </td>
+		<td class="about-field-title"> Post Secondary: </td>
 		<td class="about-field"> Bachelor's of Applied Science in Software Engineering, 
 		<br> University of British Columbia, 2015
 		</td>
 	</tr>
 	<tr class="about-row">
-		<td class="about-field-title"> High School Education: </td>
+		<td class="about-field-title"> High School: </td>
 		<td class="about-field"> St. Patrick's Regional Secondary School, 2010
 		</td>
 	</tr>
 	<tr class="about-row">
-		<td class="about-field-title"> Elementary School Education: </td>
+		<td class="about-field-title"> Elementary School: </td>
 		<td class="about-field"> St. Paul's School, 2005
 		</td>
 	</tr>
 	<tr class="about-row">
-		<td class="about-field-title"> Awards and Accomplishments: </td>
+		<td class="about-field-title"> Accomplishments: </td>
 		<td class="about-field"> 
 			UBC Engineering Dean's List, 2010-2015
 			<br>High School Valedictorian
@@ -73,7 +73,7 @@
 		<td class="about-field"> Liberal </td>
 	</tr>
 	<tr class="about-row">
-		<td class="about-field-title"> Major Role Models: </td>
+		<td class="about-field-title"> Role Models: </td>
 		<td class="about-field"> Socrates, Jesus, Leonardo Da Vinci, Jonathan Blow, Sam Smith, Jose Rizal, Augustus Caesar </td>
 	</tr>
 	<tr class="about-row">
@@ -86,7 +86,7 @@
 		</td>
 	</tr>
 	<tr class="about-row">
-		<td class="about-field-title"> Interests and Hobbies: </td>
+		<td class="about-field-title"> Interests + Hobbies: </td>
 		<td class="about-field">
 			Developing and playing video games via DirectX/Unreal
 			<br>Reading philosophical and historical texts

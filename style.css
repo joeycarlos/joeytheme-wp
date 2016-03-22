@@ -238,7 +238,7 @@ nav ul li a:hover{
 .site-footer {
 	text-align: center;
 	font-family: 'Signika', sans-serif;
-	padding-top: 20px;
+	padding-top: 0px;
 }
 
 
@@ -283,6 +283,7 @@ nav ul li a:hover{
 	margin: 0 auto;
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-bottom: 20px;
 }
 
 .post-page-icon {
@@ -300,6 +301,62 @@ nav ul li a:hover{
 	padding-left: 10px;
 }
 
+/* ABOUT PAGE */
+
+.about-page-title {
+	text-align: center;
+	font-family: 'Kreon', serif;
+	font-size: 30px;
+	color: #cccccc;
+}
+
+.about-picture {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.about-table {
+	margin: 30px auto;
+}
+
+.about-row {
+	height: 25px;
+}
+
+.about-field-title {
+	font-weight: bold;
+	color: #b3b3b3;
+	font-family: 'Signika', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	vertical-align: middle;
+	text-align: left;
+	padding-top: 2px;
+	width: 150px;
+	border-right: ridge;
+	border-bottom: ridge;
+	border-width: 1px;
+	border-color: #333333;
+}
+
+.about-field {
+	vertical-align: middle;
+	padding-left: 30px;
+	width: 500px;
+	font-size: 14px;
+	border-bottom: ridge;
+	border-width: 1px;
+	border-color: #333333;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.about-table tr:last-child > td {
+	border-bottom: none;
+}
 
 /* BANNER BREAKPOINT */
 @media screen and (max-width: 450px) {
@@ -369,6 +426,16 @@ nav ul li a:hover{
 
 	nav ul li:last-child {
 		border-bottom: none;
+	}
+
+	.about-field-title {
+		text-align: left;
+		font-size: 12px;
+	}	
+
+	.about-field {
+		font-size: 12px;
+		padding-left: 5px;
 	}
 
 }
