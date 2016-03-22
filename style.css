@@ -179,15 +179,25 @@ nav ul li a:hover{
 	font-family: 'Kreon', sans-serif;
 	font-weight: normal;
 	font-size: 20px;
-
-	padding-bottom: 20px;
-
 }
 
 .post-title a:hover {
 	font-weight: bold;
 }
 
+.post-tags {
+	font-family: 'Signika', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+.post-tags a:link,
+.post-tags a:visited {
+	color: #808080;
+}
 
 /* PAGINATION */
 .prev-next-posts {
@@ -252,7 +262,7 @@ nav ul li a:hover{
 .post-banner {
 	text-align: center;
 	margin: 0 auto;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 
 .post-page-title {
@@ -275,7 +285,7 @@ nav ul li a:hover{
 }
 
 .post-page-content {
-	padding-top: 10px;
+	padding-top: 5px;
 	color: #b3b3b3;
 	font-size: 16px;
 	line-height: 25px;
@@ -299,6 +309,15 @@ nav ul li a:hover{
 	font-size: 16px;
 	text-transform: uppercase;
 	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+.post-page-tags {
+	font-family: 'Signika', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	padding-top: 0px;
 }
 
 /* ABOUT PAGE */
@@ -395,7 +414,11 @@ nav ul li a:hover{
 
 	.post-title {
 		font-size: 16px;
-		padding-bottom: 15px;
+		padding-bottom: 10px;
+	}
+
+	.post-tags {
+		display: none;
 	}
 }
 
@@ -436,6 +459,10 @@ nav ul li a:hover{
 	.about-field {
 		font-size: 12px;
 		padding-left: 5px;
+	}
+
+	.post-page-title {
+		font-size: 25px;
 	}
 
 }

@@ -30,6 +30,8 @@ if ( $query->have_posts() ) :
 				<p class="post-page-date">
 					<?php the_date('Y M j - g:i A'); ?>
 				</p>
+
+				<p class="post-page-tags"><?php echo get_the_tag_list('Tags : ', ', ', ''); ?></p>
 			</div>
 
 			<div class="post-page-content">

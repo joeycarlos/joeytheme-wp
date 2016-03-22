@@ -73,6 +73,7 @@ if ( $query->have_posts() ) : ?>
 
 			<td class="post-title-cell">
 				<p class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+				<p class="post-tags"><?php echo get_the_tag_list('', ', ', ''); ?></p>
 			</td>
 		</tr>
 

@@ -63,10 +63,11 @@ if (is_home()) :
 					<?php } ?>
 				</td>
 
-				<td class="post-title-cell"><h4 class="post-title"><a href="<?php the_permalink(); ?>">
-					<?php 
-					the_title(); ?>
-					</a></h4>
+				<td class="post-title-cell">
+					<p class="post-title"><a href="<?php the_permalink(); ?>">
+							<?php the_title(); ?>
+						</a></p>
+					<p class="post-tags"><?php echo get_the_tag_list('', ', ', ''); ?></p>
 				</td>
 			</tr>
 
