@@ -7,26 +7,26 @@ Version: 1.0
 
 /* GENERAL */
 body {
-	background-color: black;
-	color: SlateGray;
-	font-family: 'Georgia', sans-serif;
+	background-color: white;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a:link, a:visited {
-	color: #bfbfbf;
+	color: black;
 	text-decoration: none;
 }
 
 .fa-cogs {
-	color: GoldenRod;
+	color: #0040ff;
 }
 
 .fa-pencil {
-	color: DarkTurquoise;
+	color: #00802b;
 }
 
 .fa-music {
-	color: crimson;
+	color: #ff0000;
 }
 
 /* HEADER */
@@ -58,19 +58,32 @@ a:link, a:visited {
 	margin-top: 0px;
 	margin-bottom: 10px;
 	font-family: 'Signika', sans-serif;
-	font-size: 45px;
+	font-size: 50px;
 	font-weight: normal;
+	color: black;
+	font-weight: bold;
+}
+
+.site-banner h1 a:link,
+.site-banner h1 a:visited, {
+	color: black;
 }
 
 .site-banner h1 a:hover {
-	font-weight: bold;
+	color: #666666;
 }
 
 .site-banner .full-name {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: 15px;
+	font-weight: bold;
 }
+
+.header-border {
+	margin-bottom: 30px;
+}
+
 
 /* NAVIGATION */
 
@@ -82,6 +95,7 @@ nav {
 	text-transform: uppercase;
 	text-align: center;
 	padding-bottom: 20px;
+	font-weight: bold;
 }
 
 nav ul {
@@ -97,13 +111,13 @@ nav ul li {
 
 nav ul li a:link,
 nav ul li a:visited {
-	background-color: #333333;
+	background-color: #bfbfbf;
 	padding: 8px 10px;
 	border-radius: 5px;
 }
 
 nav ul li a:hover{
-	background-color: #404040;
+	background-color: #999999;
 	padding: 8px 10px;
 	border-radius: 5px;
 }
@@ -133,7 +147,7 @@ nav ul li a:hover{
 	font-weight: bold;
 	font-size: 30px;
 
-	text-decoration: underline;
+	color: #333333;
 }
 
 .post-date-cell {
@@ -153,6 +167,8 @@ nav ul li a:hover{
 	font-size: 18px;
 
 	text-transform: uppercase;
+
+	color: #666666;
 }
 
 .post-category-cell {
@@ -178,12 +194,12 @@ nav ul li a:hover{
 	padding: 0;	
 
 	font-family: 'Kreon', sans-serif;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 22px;
 }
 
 .post-title a:hover {
-	font-weight: bold;
+	color: #666666;
 }
 
 .post-tags {
@@ -197,7 +213,7 @@ nav ul li a:hover{
 
 .post-tags a:link,
 .post-tags a:visited {
-	color: #808080;
+	color: #333333;
 }
 
 /* PAGINATION */
@@ -226,7 +242,7 @@ nav ul li a:hover{
 	width: 30px;
 	font-family: 'Signika', sans-serif;
 	font-size: 20px;
-	color: white;
+	color: black;
 }
 
 .next-posts-link {
@@ -258,6 +274,15 @@ nav ul li a:hover{
 	text-align: center;
 }
 
+.category-description {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	font-family: 'Kreon', serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
 
 /* SINGLE POST PAGE */
 .post-banner {
@@ -277,16 +302,16 @@ nav ul li a:hover{
 
 .post-page-title a:link,
 .post-page-title a:visited {
-	color: #cccccc;
-	font-weight: normal;
-}
-
-.post-page-title a:hover {
+	color: black;
 	font-weight: bold;
 }
 
+.post-page-title a:hover {
+	color: #666666;
+}
+
 .post-page-content {
-	color: #b3b3b3;
+	color: black;
 	font-size: 18px;
 	line-height: 30px;
 	max-width: 700px;
@@ -322,7 +347,7 @@ nav ul li a:hover{
 	display: inline-block;
 	margin: 0;
 	font-family: 'Signika', sans-serif;
-	color: SlateGray;
+	color: black;
 	font-weight: bold;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -344,7 +369,8 @@ nav ul li a:hover{
 	text-align: center;
 	font-family: 'Kreon', serif;
 	font-size: 30px;
-	color: #cccccc;
+	color: black;
+	font-weight: bold;
 }
 
 .about-picture {
@@ -365,7 +391,7 @@ nav ul li a:hover{
 
 .about-field-title {
 	font-weight: bold;
-	color: #b3b3b3;
+	color: black;
 	font-family: 'Signika', sans-serif;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -376,17 +402,17 @@ nav ul li a:hover{
 	border-right: ridge;
 	border-bottom: ridge;
 	border-width: 1px;
-	border-color: #333333;
+	border-color: #666666;
 }
 
 .about-field {
 	vertical-align: middle;
 	padding-left: 30px;
 	width: 500px;
-	font-size: 14px;
+	font-size: 15px;
 	border-bottom: ridge;
 	border-width: 1px;
-	border-color: #333333;
+	border-color: #666666;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	line-height: 20px;
@@ -401,7 +427,7 @@ nav ul li a:hover{
 	text-align: center;
 	font-family: 'Kreon', serif;
 	font-size: 20px;
-	color: #cccccc;	
+	color: black;	
 }
 
 /* BANNER BREAKPOINT */
@@ -467,7 +493,7 @@ nav ul li a:hover{
 		width: 100%;
 		margin-bottom: 20px;
 		float: none;
-		background-color: #333333;
+		background-color: #d9d9d9;
 		padding-top: 10px;
 		padding-bottom: 10px;
 		margin: 0;
@@ -495,6 +521,10 @@ nav ul li a:hover{
 
 	.post-page-title {
 		font-size: 25px;
+	}
+
+	.header-border {
+		display: none;
 	}
 
 }

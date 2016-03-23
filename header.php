@@ -22,9 +22,9 @@
 
 				<a href="<?php bloginfo('url'); ?>/about" class="picture-about-link">
 					<img class="header-picture" 
-						src="<?php bloginfo('url'); ?>/wp-content/themes/joeytheme-wp/images/profile_picture.png" 
+						src="<?php bloginfo('url'); ?>/wp-content/themes/joeytheme-wp/images/profile_picture.png"  
 						onmouseover="this.src='<?php bloginfo('url'); ?>/wp-content/themes/joeytheme-wp/images/profile_picture_hover.png'" 
-						onmouseout="this.src='<?php bloginfo('url'); ?>/wp-content/themes/joeytheme-wp/images/profile_picture.png'">
+						onmouseout="this.src='<?php bloginfo('url'); ?>/wp-content/themes/joeytheme-wp/images/profile_picture.png'" />
 				</a>
 
 				<div class="site-title">
@@ -44,5 +44,7 @@
 				?>
 				<?php echo wp_nav_menu( $args ); ?>
 			</nav>
+		
+		<hr class="header-border">
 
 		</header><!-- /site-header -->
