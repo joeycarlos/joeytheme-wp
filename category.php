@@ -132,9 +132,13 @@ if ( $query->have_posts() ) : ?>
 
 	wp_reset_postdata();
 
-else :
-	echo '<p>Posts for this category coming soon!</p>';
+else : ?>
 
+	<p class="empty-category-msg"> 
+		Posts coming soon!
+	</p>
+
+<?php
 endif;
 ?>
 

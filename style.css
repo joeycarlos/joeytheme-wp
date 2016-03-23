@@ -283,6 +283,15 @@ nav ul li a:hover{
 	font-weight: bold;
 }
 
+.empty-category-msg {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	font-family: 'Kreon', serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
 
 /* SINGLE POST PAGE */
 .post-banner {
