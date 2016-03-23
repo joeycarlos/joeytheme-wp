@@ -296,8 +296,22 @@ nav ul li a:hover{
 	padding-bottom: 20px;
 }
 
-p {
+.post-page-content p {
 	margin: 25px 0;
+}
+
+.post-page-content iframe {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 80%;
+}
+
+.post-page-content img {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 80%;	
 }
 
 .post-page-icon {
@@ -432,6 +446,11 @@ p {
 
 	.post-tags {
 		display: none;
+	}
+
+	.post-page-content {
+		font-size: 16px;
+		line-height: 26px;
 	}
 }
 
