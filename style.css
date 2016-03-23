@@ -375,6 +375,7 @@ p {
 	border-color: #333333;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	line-height: 20px;
 }
 
 .about-table tr:last-child > td {
