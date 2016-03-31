@@ -10,6 +10,20 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<?php wp_head(); ?>
+	<script>
+		$(window).scroll(function(e){ 
+		  var $el = $('.site-nav'); 
+		  var isPositionFixed = ($el.css('position') == 'fixed');
+		  if ($(this).scrollTop() > 200 && !isPositionFixed){ 
+		    $('.site-nav').css({'position': 'fixed', 'top': '0px'}); 
+		  }
+		  if ($(this).scrollTop() < 200 && isPositionFixed)
+		  {
+		    $('.site-nav').css({'position': 'static', 'top': '0px'}); 
+		  } 
+		});
+	</script>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -18,6 +32,7 @@
 		<!-- site-header -->
 		<header class="site-header">
 
+		<div class="site-banner-container">
 			<div class="site-banner">
 
 				<a href="<?php bloginfo('url'); ?>/about" class="picture-about-link">
@@ -31,20 +46,18 @@
 					<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
 					<p class="full-name">Jose-Carlos (Joey) Peralta Laguio</p>
 				</div>
-
 			</div>
+		</div>
 
-			<p class="header-blurb"><?php bloginfo('description'); ?></p>
-
-			<nav class="site-nav">
-				<?php
-					$args = array(
-						'theme_location' => 'primary'
-					);
-				?>
-				<?php echo wp_nav_menu( $args ); ?>
-			</nav>
-		
 		<hr class="header-border">
+
+		<nav class="site-nav">
+			<?php
+				$args = array(
+					'theme_location' => 'primary'
+				);
+			?>
+			<?php echo wp_nav_menu( $args ); ?>
+		</nav>
 
 		</header><!-- /site-header -->

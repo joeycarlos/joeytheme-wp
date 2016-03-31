@@ -10,6 +10,13 @@ body {
 	background-color: white;
 	color: black;
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	margin: 0;
+	padding: 0;
 }
 
 a:link, a:visited {
@@ -17,26 +24,43 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
-.fa-cogs {
-	color: #0040ff;
+.fa-gamepad {
+	color: yellow;
 }
 
 .fa-pencil {
-	color: #00802b;
+	color: blue;
 }
 
 .fa-music {
-	color: #ff0000;
+	color: purple;
+}
+
+.fa-paint-brush {
+	color: green;
+}
+
+.fa-heartbeat {
+	color: red;
 }
 
 /* HEADER */
+
+.site-header {
+	margin-bottom: 50px;
+}
+
+.site-banner-container {
+	background-image: url('images/banner_background.jpg');
+}
+
 .site-banner {
 	display: block;
-	padding-top: 10px;
-	max-width: 450px;
+	max-width: 425px;
 	margin: 0 auto;
 	text-align: center;
-	padding-bottom: 180px;
+	padding-bottom: 200px;
+	padding-top: 25px;
 }
 
 .site-banner img {
@@ -80,10 +104,12 @@ a:link, a:visited {
 	font-weight: bold;
 }
 
-.header-border {
-	margin-bottom: 30px;
+hr.header-border {
+	border-color: #666666;
+	border-style: solid;
+	margin-top: 0;
+	margin-bottom: 0;
 }
-
 
 /* NAVIGATION */
 
@@ -91,37 +117,44 @@ nav {
 	display: block;
 	clear: both;
 	font-family: 'Signika', sans-serif;
-	font-size: 20px;
+	font-size: 17px;
 	text-transform: uppercase;
 	text-align: center;
-	padding-bottom: 20px;
 	font-weight: bold;
+	padding-top: 0;
+
 }
 
 nav ul {
 	list-style-type: none;
 	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 nav ul li {
 	display: inline-block;
 	text-align: center;
-	width: 180px;
-}
-
-nav ul li a:link,
-nav ul li a:visited {
+	width: 160px;
 	background-color: #bfbfbf;
-	padding: 8px 10px;
-	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-right: solid;
+	border-left: solid;
+	border-bottom: solid;
+	border-color: #666666;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-width: 2px;
 }
 
-nav ul li a:hover{
-	background-color: #999999;
-	padding: 8px 10px;
-	border-radius: 5px;
+nav ul li a:hover {
+	color: #666666;
 }
-
 
 /* POST LISTING */
 .index-post-listing,
