@@ -613,7 +613,7 @@ nav ul li a:hover {
 		margin: 0 auto;
 		border-style: none;
 		border-radius: 0;
-		padding: 0px 0px 0px 0px;
+		padding: 0px 5px 0px 5px;
 		box-shadow: none;
 		border-top: solid;
 		border-bottom: solid;
