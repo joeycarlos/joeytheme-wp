@@ -412,7 +412,7 @@ nav ul li a:hover {
 }
 
 .post-page-content ol li:last-child {
-	padding-bottom: 0;
+	padding-bottom: 20px;
 }
 
 .post-page-content ol li p {
@@ -428,7 +428,7 @@ nav ul li a:hover {
 }
 
 .post-page-content ul li:last-child {
-	padding-bottom: 0;
+	padding-bottom: 25px;
 }
 
 .post-page-content ul li p {
