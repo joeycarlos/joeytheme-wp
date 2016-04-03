@@ -177,7 +177,7 @@ nav ul li a:hover {
 
 /* MAIN CONTENT DIV */
 .main-content-div {
-	width: 700px;
+	width: 650px;
 	background-color: white;
 	margin: 0 auto;
 	border-style: solid;
@@ -199,9 +199,9 @@ nav ul li a:hover {
 
 .post-year-cell {
 	text-align: left;
-	height: 50px;
+	height: 40px;
 	vertical-align: bottom;
-	padding-top: 10px;
+	padding-top: 0px;
 	padding-bottom: 20px;
 }
 
@@ -292,6 +292,7 @@ nav ul li a:hover {
 .prev-posts-link {
 	display: inline-block;
 	font-family: 'Signika', sans-serif;
+	margin: 0;
 }
 
 .prev-posts-link a:link,
@@ -309,12 +310,14 @@ nav ul li a:hover {
 	font-family: 'Signika', sans-serif;
 	font-size: 20px;
 	color: black;
+	margin: 0;
 }
 
 .next-posts-link {
 	display: inline-block;
 	font-weight: bold;
 	font-family: 'Signika', sans-serif;
+	margin: 0;
 }
 
 .next-posts-link a:link,
@@ -388,7 +391,7 @@ nav ul li a:hover {
 .post-page-content {
 	color: black;
 	font-size: 18px;
-	line-height: 28px;
+	line-height: 33px;
 	max-width: 800px;
 	margin: 0 auto;
 	padding-left: 20px;
@@ -397,7 +400,39 @@ nav ul li a:hover {
 }
 
 .post-page-content p {
-	margin: 25px 0;
+	margin: 20px 0;
+}
+
+.post-page-content ol {
+	padding-left: 25px;
+}
+
+.post-page-content ol li {
+	padding-bottom: 25px;
+}
+
+.post-page-content ol li:last-child {
+	padding-bottom: 0;
+}
+
+.post-page-content ol li p {
+	margin-bottom: 0;
+}
+
+.post-page-content ul {
+	padding-left: 25px;
+}
+
+.post-page-content ul li {
+	padding-bottom: 15px;
+}
+
+.post-page-content ul li:last-child {
+	padding-bottom: 0;
+}
+
+.post-page-content ul li p {
+	margin-bottom: 0;
 }
 
 .post-page-content iframe {
@@ -613,7 +648,7 @@ nav ul li a:hover {
 		margin: 0 auto;
 		border-style: none;
 		border-radius: 0;
-		padding: 0px 8px 0px 8px;
+		padding: 20px 8px 20px 8px;
 		box-shadow: none;
 		border-top: solid;
 		border-bottom: solid;
