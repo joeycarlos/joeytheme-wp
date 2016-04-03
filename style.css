@@ -194,7 +194,7 @@ nav ul li a:hover {
 .tag-post-listing {
 	margin: 0 auto;
 	table-layout: fixed;
-	padding-left: 10px;
+	padding-left: 0px;
 }
 
 .post-year-cell {
@@ -613,11 +613,12 @@ nav ul li a:hover {
 		margin: 0 auto;
 		border-style: none;
 		border-radius: 0;
-		padding: 0px 5px 0px 5px;
+		padding: 0px 8px 0px 8px;
 		box-shadow: none;
 		border-top: solid;
 		border-bottom: solid;
 		border-color: #666666;
+		box-sizing: border-box;
 	}
 
 	.about-field-title {
