@@ -1,13 +1,19 @@
 <?php get_header(); ?> 
 
 <div class="category-icon">
-	<?php if (is_category('technology')) { ?>
-		<p class="tech-icon"><i class="fa fa-cogs fa-5x" class></i></p>
+	<?php if (is_category('writing')) { ?>
+		<p class="tech-icon"><i class="fa fa-pencil fa-5x" class></i></p>
 
-	<?php } elseif (is_category('writing')) { ?>
-		<p class="article-icon"><i class="fa fa-pencil fa-5x" class></i></p>
+	<?php } elseif (is_category('tech')) { ?>
+		<p class="article-icon"><i class="fa fa-gamepad fa-5x" class></i></p>
+
+	<?php } elseif (is_category('health')) { ?>
+		<p class="music-icon"><i class="fa fa-heartbeat fa-5x" class></i></p>
 
 	<?php } elseif (is_category('art')) { ?>
+		<p class="music-icon"><i class="fa fa-paint-brush fa-5x" class></i></p>
+
+	<?php } elseif (is_category('music')) { ?>
 		<p class="music-icon"><i class="fa fa-music fa-5x" class></i></p>
 
 	<?php } ?>
@@ -20,17 +26,21 @@
 
 <?php
 
-if (is_category('technology')) {
-	$catslugs = array('technology');
-} elseif (is_category('writing')) {
+if (is_category('writing')) {
 	$catslugs = array('writing');
+} elseif (is_category('tech')) {
+	$catslugs = array('tech');
+} elseif (is_category('health')) {
+	$catslugs = array('health');
 } elseif (is_category('art')) {
 	$catslugs = array('art');
+} elseif (is_category('music')) {
+	$catslugs = array('music');
 } elseif (is_category('personal')) {
 	$catslugs = array('personal');
 } else {
 	echo "Not a valid category. Returning all posts";
-	$catslugs = array('technology','writing','art');
+	$catslugs = array('writing','tech','health','art','music');
 }
 
 $catids = get_cats_by_slug($catslugs);
@@ -72,20 +82,30 @@ if ( $query->have_posts() ) : ?>
 			</td>
 
 			<td class="post-category-cell">
-				<?php 
-				if ( in_category('technology') ) { ?>
-					<i class="fa fa-cogs fa-lg" class="main-tech-icon"></i>
-				<?php } ?>
+					<?php 
+					if ( in_category('writing') ) { ?>
+						<i class="fa fa-pencil fa-lg"></i>
+					<?php } ?>
 
-				<?php 
-				if ( in_category('writing') ) { ?>
-					<i class="fa fa-pencil fa-lg" class="main-article-icon"></i>
-				<?php } ?>
+					<?php 
+					if ( in_category('tech') ) { ?>
+						<i class="fa fa-gamepad fa-lg"></i>
+					<?php } ?>
 
-				<?php 
-				if ( in_category('art') ) { ?>
-					<i class="fa fa-music fa-lg" class="main-music-icon"></i>
-				<?php } ?>
+					<?php 
+					if ( in_category('health') ) { ?>
+						<i class="fa fa-heartbeat fa-lg"></i>
+					<?php } ?>
+
+					<?php 
+					if ( in_category('art') ) { ?>
+						<i class="fa fa-paint-brush fa-lg"></i>
+					<?php } ?>	
+
+					<?php 
+					if ( in_category('music') ) { ?>
+						<i class="fa fa-music fa-lg"></i>
+					<?php } ?>
 			</td>
 
 

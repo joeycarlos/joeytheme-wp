@@ -10,19 +10,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<?php wp_head(); ?>
-	<script>
-		$(window).scroll(function(e){ 
-		  var $el = $('.site-nav'); 
-		  var isPositionFixed = ($el.css('position') == 'fixed');
-		  if ($(this).scrollTop() > 200 && !isPositionFixed){ 
-		    $('.site-nav').css({'position': 'fixed', 'top': '0px'}); 
-		  }
-		  if ($(this).scrollTop() < 200 && isPositionFixed)
-		  {
-		    $('.site-nav').css({'position': 'static', 'top': '0px'}); 
-		  } 
-		});
-	</script>
 
 </head>
 
@@ -61,3 +48,5 @@
 		</nav>
 
 		</header><!-- /site-header -->
+
+	<div class="main-content-div">

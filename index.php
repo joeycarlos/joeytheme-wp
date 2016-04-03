@@ -2,7 +2,7 @@
 
 <?php
 
-$catslugs = array('technology','writing','art');
+$catslugs = array('writing','tech','health','art','music');
 $catids = get_cats_by_slug($catslugs);
 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 $args = array( 'category__in' => $catids,
@@ -47,20 +47,32 @@ if (is_home()) :
 				</p></td>
 
 				<td class="post-category-cell">
-					<?php 
-					if ( in_category('technology') ) { ?>
-						<i class="fa fa-cogs fa-lg" class="main-tech-icon"></i>
-					<?php } ?>
 
 					<?php 
 					if ( in_category('writing') ) { ?>
-						<i class="fa fa-pencil fa-lg" class="main-article-icon"></i>
+						<i class="fa fa-pencil fa-lg"></i>
+					<?php } ?>
+
+					<?php 
+					if ( in_category('tech') ) { ?>
+						<i class="fa fa-gamepad fa-lg"></i>
+					<?php } ?>
+
+					<?php 
+					if ( in_category('health') ) { ?>
+						<i class="fa fa-heartbeat fa-lg"></i>
 					<?php } ?>
 
 					<?php 
 					if ( in_category('art') ) { ?>
-						<i class="fa fa-music fa-lg" class="main-music-icon"></i>
+						<i class="fa fa-paint-brush fa-lg"></i>
+					<?php } ?>	
+
+					<?php 
+					if ( in_category('music') ) { ?>
+						<i class="fa fa-music fa-lg"></i>
 					<?php } ?>
+
 				</td>
 
 				<td class="post-title-cell">

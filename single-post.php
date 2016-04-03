@@ -15,16 +15,24 @@ if ( $query->have_posts() ) :
 					<?php the_title(); ?></a>
 				</h2>
 
-				<?php if ( in_category('technology') ) { ?>
-					<i class="fa fa-cogs fa-lg" class="post-page-icon"></i>
+				<?php if ( in_category('writing') ) { ?>
+					<i class="fa fa-pencil fa-lg"></i>
 					<?php } ?>
 
-				<?php if ( in_category('writing') ) { ?>
-					<i class="fa fa-pencil fa-lg" class="post-page-icon"></i>
+				<?php if ( in_category('tech') ) { ?>
+					<i class="fa fa-gamepad fa-lg"></i>
+					<?php } ?>
+
+				<?php if ( in_category('health') ) { ?>
+					<i class="fa fa-heartbeat fa-lg"></i>
 					<?php } ?>
 
 				<?php if ( in_category('art') ) { ?>
-					<i class="fa fa-music fa-lg" class="post-page-icon"></i>
+					<i class="fa fa-paint-brush fa-lg"></i>
+					<?php } ?>
+
+				<?php if ( in_category('music') ) { ?>
+					<i class="fa fa-music fa-lg"></i>
 					<?php } ?>
 
 				<p class="post-page-date">

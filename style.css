@@ -7,7 +7,8 @@ Version: 1.0
 
 /* GENERAL */
 body {
-	background-color: white;
+	background: LightSlateGray;
+
 	color: black;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
@@ -25,7 +26,7 @@ a:link, a:visited {
 }
 
 .fa-gamepad {
-	color: yellow;
+	color: #AF7817;
 }
 
 .fa-pencil {
@@ -52,11 +53,15 @@ a:link, a:visited {
 
 .site-banner-container {
 	background-image: url('images/banner_background.jpg');
+	max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    background-position: center center;
 }
 
 .site-banner {
 	display: block;
-	max-width: 425px;
+	max-width: 460px;
 	margin: 0 auto;
 	text-align: center;
 	padding-bottom: 200px;
@@ -80,12 +85,13 @@ a:link, a:visited {
 
 .site-banner h1 {
 	margin-top: 0px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	font-family: 'Signika', sans-serif;
-	font-size: 50px;
+	font-size: 45px;
 	font-weight: normal;
 	color: black;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .site-banner h1 a:link,
@@ -99,8 +105,8 @@ a:link, a:visited {
 
 .site-banner .full-name {
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+	font-family: 'Kreon', sans-serif;
+	font-size: 18px;
 	font-weight: bold;
 }
 
@@ -117,7 +123,7 @@ nav {
 	display: block;
 	clear: both;
 	font-family: 'Signika', sans-serif;
-	font-size: 17px;
+	font-size: 0;
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
@@ -137,23 +143,49 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	text-align: center;
-	width: 160px;
-	background-color: #bfbfbf;
-	margin-left: 10px;
-	margin-right: 10px;
+	width: 120px;
+	background-color: white;
+	margin-left: 0px;
+	margin-right: 0px;
 	padding-top: 10px;
 	padding-bottom: 5px;
 	border-right: solid;
 	border-left: solid;
 	border-bottom: solid;
 	border-color: #666666;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-	border-width: 2px;
+	border-width: 1px;
+	font-size: 16px;
+
+	background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, gray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, gray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, gray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, gray); /* Standard syntax */
+}
+
+nav ul li:first-child {
+	border-bottom-left-radius: 10px;
+}
+
+nav ul li:last-child {
+	border-bottom-right-radius: 10px;
 }
 
 nav ul li a:hover {
 	color: #666666;
+}
+
+/* MAIN CONTENT DIV */
+.main-content-div {
+	width: 700px;
+	background-color: white;
+	margin: 0 auto;
+	border-style: solid;
+	border-color: #666666;
+	border-radius: 7px;
+	padding: 20px 30px 20px 30px;
+	box-shadow: 5px 5px 5px gray;
+	max-width: 100%;
 }
 
 /* POST LISTING */
@@ -162,11 +194,12 @@ nav ul li a:hover {
 .tag-post-listing {
 	margin: 0 auto;
 	table-layout: fixed;
+	padding-left: 10px;
 }
 
 .post-year-cell {
 	text-align: left;
-	height: 30px;
+	height: 50px;
 	vertical-align: bottom;
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -217,7 +250,7 @@ nav ul li a:hover {
 	padding: 0;
 
 	height: 40px;
-	width: 400px;
+	width: 500px;
 
 	vertical-align: top;
 }
@@ -488,11 +521,23 @@ nav ul li a:hover {
 		margin-bottom: 10px;
 	}
 
+	.site-banner h1 {
+		font-size: 35px;
+	}
+
+	.site-banner .full-name {
+		font-size: 15px;
+	}
+
 	.site-title {
 		display: block;
 		float: none;
 		margin: 0 auto;
 	    max-width: 100%;
+	}
+
+	.main-content-div {
+		padding: 0px 5px 0px 5px;
 	}
 
 	table {
@@ -509,11 +554,11 @@ nav ul li a:hover {
 
 	.post-title {
 		font-size: 16px;
-		padding-bottom: 10px;
+		padding-bottom: 0px;
 	}
 
 	.post-tags {
-		display: none;
+		font-size: 10px;
 	}
 
 	.post-page-content {
@@ -522,22 +567,27 @@ nav ul li a:hover {
 	}
 }
 
-/* NAVIGATION BREAKPOINT */
-@media screen and (max-width: 580px) {
+/* NAVIGATION BREAKPOINT 2 */
+@media screen and (max-width: 630px) {
+
+	.site-header {
+		margin-bottom: 0;
+	}
+
 	nav {
 		padding-bottom: 0px;
 	}
 
 	nav ul li {
-		font-size: 20px;
+		font-size: 14px;
 		display: block;
 		text-align: center;
 		width: 100%;
 		margin-bottom: 20px;
 		float: none;
 		background-color: #d9d9d9;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 8px;
+		padding-bottom: 8px;
 		margin: 0;
 		border-bottom: 1px solid #576979;
 	}
@@ -547,8 +597,25 @@ nav ul li a:hover {
 		background-color: transparent;
 	}
 
+	nav ul li:first-child {
+		border-bottom-left-radius: 0px;
+	}
+
 	nav ul li:last-child {
-		border-bottom: none;
+		border-bottom-right-radius: 0px;
+	}
+
+	.main-content-div {
+		max-width: 100%;
+		background-color: white;
+		margin: 0 auto;
+		border-style: none;
+		border-radius: 0;
+		padding: 0px 10px 0px 10px;
+		box-shadow: none;
+		border-top: solid;
+		border-bottom: solid;
+		border-color: #666666;
 	}
 
 	.about-field-title {
